@@ -9,6 +9,12 @@ public class OneTest {
     One one = new One();
     assertEquals("foo", one.foo());
   }
+  @Test
+  public void testFoo1() throws Exception {
+    One one = new One();
+    assertEquals("foo", one.foo());
+  }
+
 
   @Test
   public void testSeconde() {
